@@ -17,7 +17,7 @@
 - Fill in all --cputune, --cpu, --shmem, --input, and --boot suboptions
   (Hugues Fafard)
 - virt-* mdev improvements (Shalini Chellathurai Saroja)
-- bhyve improvments (Roman Bogorodskiy)
+- bhyve improvements (Roman Bogorodskiy)
 - Revive network portgroup UI
 - enable a TPM by default when UEFI is used (Daniel P. Berrangé)
 - Use cpu host-passthrough by default on qemu x86
@@ -642,7 +642,7 @@ console and new VM creation wizard.
  * Fixed DBus service activation & general brokenness
  * Added a display of virtual CPU count in summary page
  * Fixed alignment of status label in details page
- * Make hardware config panel resizeable
+ * Make hardware config panel resizable
  * Switch detailed graph rendering to use sparkline code
  * Switch to use filled sparkline graphs
 
